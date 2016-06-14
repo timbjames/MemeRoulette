@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeRoulette.Web", "Web\MemeRoulette.Web.csproj", "{EE35D07E-5C2D-4DA7-9808-414940493747}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeRoulette.Web", "MemeRoulette.Web\MemeRoulette.Web.csproj", "{FF272564-A2DA-47D2-972C-435A94BC1182}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MemeRoulette.Core", "MemeRoulette.Core\MemeRoulette.Core.csproj", "{E1F5AB52-44CB-4D57-AE9A-464CC7431F6C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EE35D07E-5C2D-4DA7-9808-414940493747}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EE35D07E-5C2D-4DA7-9808-414940493747}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EE35D07E-5C2D-4DA7-9808-414940493747}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EE35D07E-5C2D-4DA7-9808-414940493747}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF272564-A2DA-47D2-972C-435A94BC1182}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF272564-A2DA-47D2-972C-435A94BC1182}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF272564-A2DA-47D2-972C-435A94BC1182}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF272564-A2DA-47D2-972C-435A94BC1182}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1F5AB52-44CB-4D57-AE9A-464CC7431F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1F5AB52-44CB-4D57-AE9A-464CC7431F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1F5AB52-44CB-4D57-AE9A-464CC7431F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1F5AB52-44CB-4D57-AE9A-464CC7431F6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
